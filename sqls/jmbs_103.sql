@@ -1,0 +1,1 @@
+grant all on dba.bs_salidas_sap to digitadores;

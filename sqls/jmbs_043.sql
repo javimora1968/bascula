@@ -1,0 +1,1 @@
+alter table dba.bs_config_bascula modify seg_espera numeric(7,2);

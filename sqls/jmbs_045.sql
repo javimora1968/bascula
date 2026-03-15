@@ -1,0 +1,1 @@
+alter table dba.bs_config_bascula modify tipo_operacion not null;

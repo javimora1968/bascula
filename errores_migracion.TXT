@@ -1,0 +1,177 @@
+Library: C:\profits6\bascula\bascula.pbl
+    Object: m_costeo
+        Event: m_lotes::clicked
+            (0001): Error       C0015: Undefined variable: w_cs_lotes
+    Object: m_bascula
+        Event: m_movimientosporcliente::clicked
+            (0001): Error       C0101: Referenced object w_cs_per_impres_mov_clientes is out of date, must be converted
+Library: C:\profits6\bascula\objbase.pbl
+    Object: w_vania_tabla
+        Event: dw_control::ue_entrar
+            (0002): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+        Event: dw_control::itemerror
+            (0006): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+        Event: dw_control::dberror
+            (0005): Warning     C0150: Function 'dbErrorCode' is obsolete.  The database error code is now available as an event argument.
+            (0024): Warning     C0150: Function 'dbErrorMessage' is obsolete.  The database error message is now available as an event argument.
+            (0026): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+Library: C:\profits6\bascula\buscar.pbl
+    Object: w_bs_seleccionar_m_primas
+        Event: dw_control1::editchanged
+            (0003): Information C0149: The identifier 'fila' conflicts with an existing property with this name in the parent class.  The new definition of 'fila' will take precedence and the prior value will be ignored until this version of 'fila' goes out of scope
+    Object: w_bs_seleccionar_granjas
+        Event: dw_control1::editchanged
+            (0003): Information C0149: The identifier 'fila' conflicts with an existing property with this name in the parent class.  The new definition of 'fila' will take precedence and the prior value will be ignored until this version of 'fila' goes out of scope
+    Object: w_bs_seleccionar_clientes
+        Event: dw_control1::editchanged
+            (0003): Information C0149: The identifier 'fila' conflicts with an existing property with this name in the parent class.  The new definition of 'fila' will take precedence and the prior value will be ignored until this version of 'fila' goes out of scope
+    Object: w_bs_seleccionar_p_term
+        Event: dw_control1::editchanged
+            (0003): Information C0149: The identifier 'fila' conflicts with an existing property with this name in the parent class.  The new definition of 'fila' will take precedence and the prior value will be ignored until this version of 'fila' goes out of scope
+Library: C:\profits6\bascula\objbase.pbl
+    Object: w_seleccionar_cuentas_cod
+        Event: w_seleccionar_cuentas_cod::open
+            (0007): Error       C0015: Undefined variable: w_gl_tr_buscar_rango_cuentas
+Library: C:\profits6\bascula\prestad.pbl
+    Object: w_cs_formulas
+        Event: cb_importar::clicked
+            (0033): Error       C0015: Undefined variable: w_cs_mensajes
+            (0034): Error       C0015: Undefined variable: w_cs_mensajes
+            (0046): Error       C0015: Undefined variable: w_cs_mensajes
+            (0056): Error       C0015: Undefined variable: w_cs_mensajes
+            (0057): Error       C0015: Undefined variable: w_cs_mensajes
+            (0090): Error       C0015: Undefined variable: w_cs_mensajes
+            (0099): Error       C0015: Undefined variable: w_cs_mensajes
+            (0123): Error       C0015: Undefined variable: w_cs_mensajes
+            (0134): Error       C0015: Undefined variable: w_cs_mensajes
+    Object: w_b_vc_empresa_cliente
+        Event: cb_productos::clicked
+            (0001): Information C0149: The identifier 'cliente' conflicts with an existing property with this name in the parent class.  The new definition of 'cliente' will take precedence and the prior value will be ignored until this version of 'cliente' goes out of scope
+            (0004): Error       C0015: Undefined variable: w_b_vc_productos_x_cliente
+    Object: w_orden_compra_sin_req
+        Event: w_orden_compra_sin_req::open
+            (0019): Error       C0051: Unknown function name: f_po_moneda_local
+    Object: w_po_seleccionar_cualquier_proveedor
+        Event: dw_control1::editchanged
+            (0003): Information C0149: The identifier 'fila' conflicts with an existing property with this name in the parent class.  The new definition of 'fila' will take precedence and the prior value will be ignored until this version of 'fila' goes out of scope
+    Object: w_po_modificar_orden
+        Event: w_po_modificar_orden::open
+            (0019): Error       C0051: Unknown function name: f_po_moneda_local
+    Object: w_po_tr_anular_orden
+        Event: w_po_tr_anular_orden::open
+            (0019): Error       C0051: Unknown function name: f_po_moneda_local
+    Object: w_po_tr_aprobar_orden
+        Event: w_po_tr_aprobar_orden::open
+            (0019): Error       C0051: Unknown function name: f_po_moneda_local
+    Object: w_po_lista_ordenes_anular
+        Event: cb_cancelar::clicked
+            (0001): Error       C0001: Illegal data type: str_documento
+            (0003): Error       C0015: Undefined variable: parametros
+            (0004): Error       C0015: Undefined variable: parametros
+    Object: w_po_lista_ordenes_aprobar
+        Event: cb_cancelar::clicked
+            (0001): Error       C0001: Illegal data type: str_documento
+            (0003): Error       C0015: Undefined variable: parametros
+            (0004): Error       C0015: Undefined variable: parametros
+    Object: w_cs_per_impres_valoracion_frmlas_fchas
+        Function: w_cs_per_impres_valoracion_frmlas_fchas::wf_revalorizar
+            (0044): Error       C0015: Undefined variable: w_cs_mensajes
+            (0045): Error       C0015: Undefined variable: w_cs_mensajes
+            (0046): Error       C0015: Undefined variable: w_cs_mensajes
+            (0047): Error       C0015: Undefined variable: w_cs_mensajes
+            (0048): Error       C0015: Undefined variable: w_cs_mensajes
+            (0060): Error       C0015: Undefined variable: w_cs_mensajes
+            (0067): Error       C0015: Undefined variable: w_cs_mensajes
+            (0068): Error       C0015: Undefined variable: w_cs_mensajes
+            (0069): Error       C0015: Undefined variable: w_cs_mensajes
+            (0091): Error       C0015: Undefined variable: w_cs_mensajes
+            (0099): Error       C0015: Undefined variable: w_cs_mensajes
+    Object: w_sheet_tabla_1
+        Event: w_sheet_tabla_1::ue_buscar
+            (0005): Error       C0015: Undefined variable: w_gl_b_buscar
+    Object: w_po_tr_consultar_orden
+        Event: w_po_tr_consultar_orden::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0015): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0025): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0035): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0045): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0055): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: cb_actualizar::clicked
+            (0001): Error       C0001: Illegal data type: str_documento
+            (0010): Error       C0015: Undefined variable: documento
+            (0011): Error       C0015: Undefined variable: documento
+            (0015): Error       C0015: Undefined variable: documento
+            (0016): Error       C0015: Undefined variable: documento
+Library: C:\profits6\bascula\transac.pbl
+    Object: w_bs_crear_reg_proveedor
+        Event: w_bs_crear_reg_proveedor::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0017): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_1::itemchanged
+            (0059): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0087): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0119): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0149): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_bs_procesar_reg_proveedor
+        Event: w_bs_procesar_reg_proveedor::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0017): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+    Object: w_bs_modificar_reg_proveedor
+        Event: w_bs_modificar_reg_proveedor::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0017): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_1::itemchanged
+            (0059): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0087): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0119): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0149): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_bs_anular_reg_proveedor
+        Event: w_bs_anular_reg_proveedor::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0017): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+    Object: w_bs_consultar_reg_proveedor
+        Event: w_bs_consultar_reg_proveedor::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0017): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+    Object: w_bs_crear_reg_cliente
+        Event: w_bs_crear_reg_cliente::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0017): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_1::itemchanged
+            (0073): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0099): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0129): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0162): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0201): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_bs_procesar_reg_cliente
+        Event: w_bs_procesar_reg_cliente::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0017): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+    Object: w_bs_modificar_reg_cliente
+        Event: w_bs_modificar_reg_cliente::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0017): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_1::itemchanged
+            (0075): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0101): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0131): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0164): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0203): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_bs_anular_reg_cliente
+        Event: w_bs_anular_reg_cliente::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0017): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+Library: C:\profits6\bascula\transc1.pbl
+    Object: w_bs_consultar_reg_cliente
+        Event: w_bs_consultar_reg_cliente::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0017): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+Library: C:\profits6\bascula\user_obj.pbl
+    Object: lee_puertos
+        lee_puertos Class Declaration
+            (0019): Warning     C0088: Duplicate property name: commevent
+Library: C:\profits6\bascula\wimprim.pbl
+    Object: w_cs_per_impres_mov_clientes
+        sle_cliente Class Declaration
+            (0002): Error       C0029: System event type pbm_dwnrbuttonclk not found

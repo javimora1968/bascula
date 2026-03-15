@@ -1,0 +1,1 @@
+alter table dba.bs_log_cambio_datos modify cod_zona not null;

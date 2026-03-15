@@ -1,0 +1,1 @@
+alter table dba.bs_analisis_item modify cod_zona not null;

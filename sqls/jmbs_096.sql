@@ -1,0 +1,1 @@
+alter table dba.bs_encab_reg_proveedor modify bodega_destino char(8);
